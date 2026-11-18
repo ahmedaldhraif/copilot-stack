@@ -10,10 +10,22 @@ import { exportM365 } from '../lib/export.mjs';
 import { main } from '../bin/copilot-stack.mjs';
 import { fixture, tree } from './helpers.mjs';
 
-test('catalog, portable packages and profiles validate with precise counts', () => {
+test('catalog, portable packages, profiles and copyable guide cover their intended skills', () => {
   const result = validateAll();
   assert.equal(result.skills, 34); assert.equal(result.m365Skills, 15); assert.equal(result.profiles, 4);
   assert.equal(catalog().filter(skill => skill.name === 'ms-app').length, 1);
+
+  const guide = fs.readFileSync(path.join(ROOT, 'docs/ALL-SKILLS.md'), 'utf8');
+  const entries = guide.split(/^### /m).slice(1);
+  const linkedSkills = entries.map(entry => {
+    const links = [...entry.matchAll(/\(\.\.\/skills\/(ms-[a-z0-9-]+)\/SKILL\.md\)/g)];
+    assert.equal(links.length, 1, 'Each prompt needs one canonical skill');
+    const blocks = [...entry.matchAll(/^```text\r?\n([\s\S]*?)^```\s*$/gm)];
+    assert.equal(blocks.length, 1, 'Each skill needs one copyable prompt');
+    assert.ok(blocks[0][1].trim(), 'Prompt must contain instructions');
+    return links[0][1];
+  });
+  assert.deepEqual(linkedSkills.sort(), catalog().map(skill => skill.name).sort());
 });
 
 test('a nested reference may link to its own skill root, never outside its package', t => {

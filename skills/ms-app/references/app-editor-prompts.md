@@ -2,6 +2,8 @@
 
 Pick the task you want, replace the words in brackets, and paste that one block into the conversation where you edit your app. The editor receives the instructions in the block. You can keep using its built-in tools and controls. In a fresh chat, paste the relevant block again.
 
+These five shortcuts cover common tasks. For one prompt per skill and the original instructions, open the [complete 34-skill guide](https://github.com/ahmedaldhraif/copilot-stack/blob/v0.1.3/docs/ALL-SKILLS.md).
+
 ## Build one working flow
 
 ```text
