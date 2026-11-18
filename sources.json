@@ -1,0 +1,239 @@
+{
+  "schema": 1,
+  "checkedOn": "2026-11-18",
+  "scope": "Documentation and reference research; not tenant or runtime certification",
+  "sources": [
+    {
+      "id": "github-skills",
+      "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills",
+      "usedFor": "Native skill locations and supported GitHub Copilot surfaces"
+    },
+    {
+      "id": "vscode-skills",
+      "url": "https://code.visualstudio.com/docs/agent-customization/agent-skills",
+      "usedFor": "Skill discovery, slash invocation and current harness boundaries"
+    },
+    {
+      "id": "vscode-prompts",
+      "url": "https://code.visualstudio.com/docs/agent-customization/prompt-files",
+      "usedFor": "Local prompt-file deprecation and native skill preference"
+    },
+    {
+      "id": "github-agents",
+      "url": "https://docs.github.com/en/copilot/reference/custom-agents-configuration",
+      "usedFor": "Portable custom agent metadata and read/search aliases"
+    },
+    {
+      "id": "visual-studio",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/ide/copilot-chat-context",
+      "usedFor": "Instructions and prompt-file fallback"
+    },
+    {
+      "id": "m365-agent-skills",
+      "url": "https://learn.microsoft.com/en-us/plugins/declarative-agent-skills",
+      "usedFor": "Agent-scoped package and profile limits"
+    },
+    {
+      "id": "m365-agent-upload",
+      "url": "https://learn.microsoft.com/en-us/plugins/agent-builder-add-skills",
+      "usedFor": "Root ZIP structure and configure/try workflow"
+    },
+    {
+      "id": "m365-chat-skills",
+      "url": "https://learn.microsoft.com/en-us/plugins/build-copilot-chat-skills",
+      "usedFor": "Personal Chat skill upload and separate scope"
+    },
+    {
+      "id": "studio-skills",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/skills-add-existing",
+      "usedFor": "Harness-specific Copilot Studio skill import"
+    },
+    {
+      "id": "power-apps-code",
+      "url": "https://learn.microsoft.com/en-us/power-apps/developer/code-apps/how-to/quickstart-github-copilot",
+      "usedFor": "Official optional Copilot CLI code-app plugin path"
+    },
+    {
+      "id": "agents-toolkit",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/visual-studio-code-overview",
+      "usedFor": "Current SDK choices and unsupported new TeamsFx projects"
+    },
+    {
+      "id": "office-toolkit",
+      "url": "https://learn.microsoft.com/en-us/office/dev/add-ins/develop/agents-toolkit-overview",
+      "usedFor": "Office scaffolding, manifest and actual host support checks"
+    },
+    {
+      "id": "windows-host",
+      "url": "https://learn.microsoft.com/en-us/windows/apps/get-started/plan-your-app",
+      "usedFor": "Windows framework and distribution choice"
+    },
+    {
+      "id": "azure-quality",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/",
+      "usedFor": "Architecture and Well-Architected tradeoffs"
+    },
+    {
+      "id": "fluent",
+      "url": "https://fluent2.microsoft.design/",
+      "usedFor": "Microsoft design foundation reference"
+    },
+    {
+      "id": "teams-design",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/design/design-teams-app-overview",
+      "usedFor": "Host design and coherent controls"
+    },
+    {
+      "id": "office-design",
+      "url": "https://learn.microsoft.com/en-us/office/dev/add-ins/design/add-in-design-language",
+      "usedFor": "Branded Office task experiences"
+    },
+    {
+      "id": "power-apps-controls",
+      "url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/overview-modern-controls",
+      "usedFor": "Supported modern controls and themes"
+    },
+    {
+      "id": "checklist-design",
+      "url": "https://www.checklist.design/skill",
+      "usedFor": "FIRST: actual skill loaded and bundled audit index read"
+    },
+    {
+      "id": "amicro-skills",
+      "url": "https://amicro.vercel.app/skills",
+      "usedFor": "SECOND: actual repository-scoped skill loaded; adapt site-specific tokens"
+    },
+    {
+      "id": "checklist-catalog",
+      "url": "https://www.checklist.design/",
+      "usedFor": "Applicable screen/flow coverage"
+    },
+    {
+      "id": "amicro-cli",
+      "url": "https://amicro.vercel.app/cli",
+      "usedFor": "Published registry and CLI routes; no component dependency installed"
+    },
+    {
+      "id": "beautiful-ui",
+      "url": "https://www.beautifului.dev/",
+      "usedFor": "Existing AI feedback/task patterns; interactive approval selection observed"
+    },
+    {
+      "id": "beautiful-ui-license",
+      "url": "https://www.beautifului.dev/license",
+      "usedFor": "MIT license at review"
+    },
+    {
+      "id": "transitions",
+      "url": "https://transitions.dev/",
+      "usedFor": "Complementary motion demos; menu/dialog exercised"
+    },
+    {
+      "id": "transitions-license",
+      "url": "https://github.com/Jakubantalik/transitions.dev/blob/main/LICENSE",
+      "usedFor": "Separate tooling and transitions/skills terms; not vendored"
+    },
+    {
+      "id": "mono-charts",
+      "url": "https://amicro.vercel.app/mono-charts",
+      "usedFor": "Chart inventory and state/data requirements"
+    },
+    {
+      "id": "svgl",
+      "url": "https://svgl.app/",
+      "usedFor": "Microsoft provider mark search and provider usage boundary"
+    },
+    {
+      "id": "aiforui",
+      "url": "https://aiforui.dev/skills",
+      "usedFor": "Design judgment, stress data, motion removal and performance"
+    },
+    {
+      "id": "astryx",
+      "url": "https://github.com/meta/astryx",
+      "usedFor": "Alternative React19+ beta foundation and agent CLI"
+    },
+    {
+      "id": "work-iq",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/",
+      "usedFor": "Enterprise intelligence layer, protocols, governance and licensing boundaries"
+    },
+    {
+      "id": "work-iq-mcp",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/mcp/overview",
+      "usedFor": "Runtime schema discovery, retrieval and exact entity operations"
+    },
+    {
+      "id": "work-iq-studio",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/add-work-iq",
+      "usedFor": "Current harness workload/write defaults and actual tenant checks"
+    },
+    {
+      "id": "work-iq-marketplace",
+      "url": "https://github.com/microsoft/work-iq",
+      "usedFor": "Hosted stable plugin differs from local CLI; retrieve-first and explicit delegation"
+    },
+    {
+      "id": "wiqd-install",
+      "url": "https://microsoft.github.io/wiqd/getting-started/installation/",
+      "usedFor": "Authoring plugin and standalone CLI setup distinction"
+    },
+    {
+      "id": "wiqd-plugins",
+      "url": "https://microsoft.github.io/wiqd/concepts/plugins/",
+      "usedFor": "Coding-assistant plugin versus shipped Microsoft 365 appPackage"
+    },
+    {
+      "id": "wiqd-build",
+      "url": "https://microsoft.github.io/wiqd/getting-started/build-a-plugin/",
+      "usedFor": "Source validation and authorized provisioning/package/share lifecycle; alpha surface"
+    },
+    {
+      "id": "ci-checkout",
+      "url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+      "usedFor": "Verified release tag and commit for configured CI"
+    },
+    {
+      "id": "ci-node",
+      "url": "https://github.com/actions/setup-node/releases/tag/v7.1.0",
+      "usedFor": "Verified release tag and commit for configured CI"
+    },
+    {
+      "id": "ci-python",
+      "url": "https://github.com/actions/setup-python/releases/tag/v7.1.0",
+      "usedFor": "Verified release tag and commit for configured CI"
+    }
+  ],
+  "repositorySnapshots": [
+    {
+      "name": "gstack",
+      "repository": "https://github.com/garrytan/gstack",
+      "commit": "33b1a965bacb9ae28ac9281a1a70cbd987e54c01",
+      "licenseAtReview": "MIT"
+    },
+    {
+      "name": "Checklist Design",
+      "repository": "https://github.com/Checklist-Design/skills",
+      "commit": "bfae71e507b1b7c03c12e0756402b60eb80f5d14",
+      "licenseAtReview": "MIT"
+    },
+    {
+      "name": "Amicro",
+      "repository": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+      "commit": "fa5f8ffbe39537a8db191806066b8773c47c82e9",
+      "licenseAtReview": "MIT"
+    },
+    {
+      "name": "AIforUI",
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "licenseAtReview": "MIT"
+    },
+    {
+      "name": "Astryx",
+      "repository": "https://github.com/meta/astryx",
+      "commit": "f4fa3661a25403ded7ee4c4c2ac5c2a355eb74ef",
+      "licenseAtReview": "MIT"
+    }
+  ]
+}

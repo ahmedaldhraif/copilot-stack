@@ -1,0 +1,18 @@
+{
+  "name": "copilot-stack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal app-building skills for GitHub Copilot and Microsoft tools",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "copilot-stack": "bin/copilot-stack.mjs" },
+  "scripts": {
+    "validate": "node bin/copilot-stack.mjs validate",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "check": "npm run validate && npm test",
+    "export:m365": "node bin/copilot-stack.mjs export-m365 --out dist/m365",
+    "package": "node scripts/package.mjs",
+    "doctor": "node bin/copilot-stack.mjs doctor"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "app": "Your app",
+  "environment": "local",
+  "maxAgeHours": 72,
+  "gates": [
+    { "id": "value", "label": "User value", "target": "", "required": true },
+    { "id": "functionality", "label": "Functional correctness", "target": "", "required": true },
+    { "id": "experience", "label": "Interaction and visual experience", "target": "", "required": true },
+    { "id": "accessibility", "label": "Accessibility", "target": "", "required": true },
+    { "id": "security", "label": "Security and privacy", "target": "", "required": true },
+    { "id": "data", "label": "Data integrity", "target": "", "required": true },
+    { "id": "reliability", "label": "Reliability and recovery", "target": "", "required": true },
+    { "id": "performance", "label": "Performance and cost", "target": "", "required": true },
+    { "id": "maintainability", "label": "Maintainability and developer experience", "target": "", "required": true },
+    { "id": "operations", "label": "Operations and release", "target": "", "required": true }
+  ]
+}
