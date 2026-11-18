@@ -2,7 +2,7 @@
 
 A skill is the full set of instructions for a job. Each entry below pairs the original instructions with a shorter prompt for an app editor that accepts ordinary chat.
 
-**Using Microsoft App Builder?** Pick the task closest to what you want. Copy the text in its box, replace the words in brackets, and paste it into the conversation for your app. For a new app, start with **Build one working flow**. For an existing screen, start with **Make a screen easier to use**. Ask for one change you can try in preview.
+**First time?** [Start with one prompt](../skills/ms-app/references/app-editor-prompts.md#build-or-improve-an-app) for the app you want to build or improve. To use one of the specialist prompts below, copy its box, replace the words in brackets, and paste it into the conversation for your app.
 
 The full instructions hold the detailed workflow and checks. You can also give the relevant sections to an assistant helping you prepare a more detailed prompt. A prompt uses the editor's existing capabilities. Work that needs source files, a terminal, an administrator, or an additional service can produce a handoff for whoever has that access.
 

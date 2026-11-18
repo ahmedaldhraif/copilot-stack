@@ -8,11 +8,12 @@ host execution are separate evidence.
 | --- | --- |
 | Canonical catalog and self-contained resources | 34 skills: 19 core and 15 Microsoft; valid names, descriptions and local references |
 | Skill Creator validator | All 34 passed using Python UTF-8 mode |
-| Full local behavioral suite | 38 passed, 0 failed, 0 skipped; final run approximately 15.5 seconds |
+| Full local behavioral suite (v0.1.4) | 40 passed, 0 failed, 0 skipped |
 | Installer | Repeat install, local upgrade, late collision, rollback, edited/unowned preservation, lock and Windows junction checks passed |
 | Export | 15 M365 packages and 4 profiles validated; maximum 8 skills per profile |
 | ZIP format | Python's standard ZIP reader independently verified every M365 ZIP, CRC and root UTF-8 SKILL.md |
 | Determinism | Repeated unchanged M365 export produced identical bytes |
+| Complete release ZIP | Unrelated notes and locally edited obsolete M365 exports stayed on disk. The archive matched the clean build. Rebuilding from an extracted ZIP reproduced the same bytes. |
 | Evidence | Code/index/untracked changes, target changes, artifact edits and age invalidate earlier passing receipts |
 | Command recorder | Missing executable, failed result, timeout and source mutation cannot publish a pass |
 | Recovery | Source round-trip, real Git bundle, hash/path validation, new-target enforcement and Windows aliases passed |
@@ -22,6 +23,7 @@ host execution are separate evidence.
 | Astra design walkthrough | Existing Fluent Teams app retains brand, records and permissions; relevant motion is adapted; missing browser/tenant proof stays visible |
 | Astra enterprise walkthrough | Eight-skill profile preserves authorized source scope, explicit delegation, actual tools and licensing uncertainty |
 | v0.1.1 hosted-editor walkthroughs | In two simulated maker requests, Astra gave a copy-ready form change and an isolated record check, left an unsupported bundling claim unverified, and included the resource inventory when explicitly asked for a full audit. No tenant app was edited in these trials. |
+| v0.1.4 first-use walkthrough | Starting from the README, an independent reviewer found the one prompt, substituted an equipment-request goal and left the save check untested when the preview's data destination was unknown. This was a simulated maker session. |
 
 The CI matrix exercises the helper CLI on Windows, Linux and macOS with Node 22
 and 24. Individual job results are available in [GitHub Actions](https://github.com/ahmedaldhraif/copilot-stack/actions/workflows/check.yml).

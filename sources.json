@@ -4,6 +4,16 @@
   "scope": "Documentation and reference research; not tenant or runtime certification",
   "sources": [
     {
+      "id": "app-builder-migration",
+      "url": "https://learn.microsoft.com/en-us/copilot/manage/app-builder-migration",
+      "usedFor": "Routes for existing legacy App Builder apps"
+    },
+    {
+      "id": "copilot-code-requirements",
+      "url": "https://learn.microsoft.com/en-us/copilot/code/code-requirements",
+      "usedFor": "Microsoft Copilot Code prerequisites and organization controls"
+    },
+    {
       "id": "studio-apps",
       "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/apps-overview",
       "usedFor": "Conversational editing, interactive preview and approved application dependencies"

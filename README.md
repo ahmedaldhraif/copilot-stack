@@ -4,7 +4,7 @@ Your app-building workflow for GitHub Copilot, Microsoft 365 Copilot for work,
 Work IQ and Microsoft tools.
 Describe the app. Build a useful journey. Verify it before calling it ready.
 
-**Using a Microsoft app editor that only accepts chat?** Open the [complete guide to all 34 skills](docs/ALL-SKILLS.md). Each entry has one prompt you can paste and a link to its full instructions. For everyday tasks, there are also [five starter prompts](skills/ms-app/references/app-editor-prompts.md).
+**Using the chat in a Microsoft app editor?** [Start here with one prompt](skills/ms-app/references/app-editor-prompts.md#build-or-improve-an-app). Replace its first line with what you want your app to do and paste it into the editor. The page includes a small task you can try in preview. For a specific job, open the [complete guide to all 34 skills](docs/ALL-SKILLS.md).
 
 Start with **`/ms-app`** in a compatible Copilot skills experience. It selects the
 relevant planning, design, engineering, QA and release workflows. You can also
@@ -17,7 +17,7 @@ Microsoft-connected apps and preserves host differences. See [comparison](docs/G
 
 ## Download
 
-[Download Copilot Stack v0.1.3 (complete ZIP)](https://github.com/ahmedaldhraif/copilot-stack/releases/download/v0.1.3/copilot-stack-0.1.3.zip). Extract it and open the `copilot-stack` folder. It contains the source, 34 skills, and the Microsoft 365 packages under `dist/m365`. For a work account with configurable agents, see the [Enterprise App Builder setup](docs/M365.md).
+[Download Copilot Stack v0.1.4 (complete ZIP)](https://github.com/ahmedaldhraif/copilot-stack/releases/download/v0.1.4/copilot-stack-0.1.4.zip). Extract it and open the `copilot-stack` folder. It contains the source, 34 skills, and the Microsoft 365 packages under `dist/m365`. For a work account with configurable agents, see the [Enterprise App Builder setup](docs/M365.md).
 
 ## Install
 

@@ -1,19 +1,32 @@
-# Use Copilot Stack in a fixed app editor
+# Start here in Microsoft’s app editor
 
-Pick the task you want, replace the words in brackets, and paste that one block into the conversation where you edit your app. The editor receives the instructions in the block. You can keep using its built-in tools and controls. In a fresh chat, paste the relevant block again.
+Open the conversation where you edit your app. Copy the box below, replace the first line with your goal, and send it. Everything the editor needs for this first pass is in the message.
 
-These five shortcuts cover common tasks. For one prompt per skill and the original instructions, open the [complete 34-skill guide](https://github.com/ahmedaldhraif/copilot-stack/blob/v0.1.3/docs/ALL-SKILLS.md).
-
-## Build one working flow
+## Build or improve an app
 
 ```text
-Build a draft where [person] can [task] and see [result]. Work in this
-editor with its existing controls and approved connections. Start with one
-complete flow. Give the main action a familiar label and make the result
-obvious. For a save, keep the user's entries on error and prevent duplicate
-submissions. Test the flow in preview with fictional data in a test location
-if available. Tell me what I can try and which checks still need me.
+I want [person] to be able to [task] and see [result].
+
+Use the tools already in this editor. Start with the simplest way a person
+can finish the task, then build or improve that flow in the draft. Keep the
+existing branding, permissions and business rules. Make the next action
+easy to find. Keep what the user entered if something goes wrong.
+
+Try the flow in preview. Before writing test data, check where it goes and
+who gets notified. Use a fictional record in an isolated test location.
+If the task saves data, reopen the record and check the result. Tell me
+what changed, what you actually verified, and the one thing I should try
+next. If a check needs access you lack, give me the step I can try.
+Keep this version in draft.
 ```
+
+**Example first line:** “I want a team member to submit a supply request and see that it was received.”
+
+**Try it yourself.** In a test copy, submit one fictional request. Close and reopen it. Look for one saved request with the same details. If the editor can’t show where the data goes, stop before submitting and record that check as untested.
+
+**Continue later.** When starting a new chat, include the app and screen, the last change you actually saw, how you tested it, and the next task. Share only details appropriate for the receiving chat.
+
+Use the prompts below for a narrower task. For architecture, Work IQ, data, release or another specialist, open the [complete 34-skill guide](https://github.com/ahmedaldhraif/copilot-stack/blob/v0.1.4/docs/ALL-SKILLS.md).
 
 ## Improve a screen
 

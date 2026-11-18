@@ -6,6 +6,8 @@ establish account eligibility, private APIs or observed tenant behavior.
 
 | Source | How it was used |
 | --- | --- |
+| [app-builder-migration](https://learn.microsoft.com/en-us/copilot/manage/app-builder-migration) | Routes for existing legacy App Builder apps |
+| [copilot-code-requirements](https://learn.microsoft.com/en-us/copilot/code/code-requirements) | Microsoft Copilot Code prerequisites and organization controls |
 | [studio-apps](https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/apps-overview) | Conversational editing, preview and approved app dependencies |
 | [studio-apps-publish](https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/publish-share-app) | Publishing, sharing and underlying record access |
 | [cowork-apps](https://learn.microsoft.com/en-us/copilot/cowork/cowork-build-apps) | Draft edits, preview and publication in Cowork |
