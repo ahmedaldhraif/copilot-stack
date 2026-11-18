@@ -1,6 +1,6 @@
 ---
 name: "ms-app"
-description: "Coordinate building a complete Microsoft-connected app or substantial app upgrade from idea through verified release preparation. Use as the starting point for an end-to-end app request."
+description: "Coordinate building or improving a Microsoft-connected app, or turn a maker's requested change into a paste-ready prompt for an app editor with fixed tools."
 license: "MIT"
 ---
 
@@ -18,6 +18,19 @@ repository and current work; do not make the user learn a command catalog.
 For a narrow bug or copy fix, use the relevant specialist directly and keep the
 work proportional. For brainstorming-only requests, inspect and propose before
 editing. Preserve branding, features, content and business logic during refinement.
+
+## When the maker will paste your answer into another editor
+
+Use the relevant installed specialist guidance here. Translate it into one
+self-contained prompt for the maker's current task. Name the screen, desired
+behavior, existing controls and an observable acceptance check. Carry forward
+the maker's constraints. Leave out skill names, slash commands, external links
+as instructions, and steps that require the receiving editor to install tools.
+For a larger project, hand over the first usable change and review the observed
+result before composing the next. If a check needs an unavailable role, browser
+or data connection, describe the manual check. Treat this as a prompt-writing
+request and deliver the prompt without implying the app was changed.
+[Copyable app editor prompts](references/app-editor-prompts.md) cover common tasks.
 
 ## Establish the actual context
 

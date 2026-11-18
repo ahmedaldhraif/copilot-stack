@@ -4,6 +4,9 @@ Your app-building workflow for GitHub Copilot, Microsoft 365 Copilot for work,
 Work IQ and Microsoft tools.
 Describe the app. Build a useful journey. Verify it before calling it ready.
 
+**Using a Microsoft app editor that only accepts chat?** Pick a task, replace
+the bracketed words and paste the prompt into the open app. [Copy an app editor prompt](skills/ms-app/references/app-editor-prompts.md)
+
 Start with **`/ms-app`** in a compatible Copilot skills experience. It selects the
 relevant planning, design, engineering, QA and release workflows. You can also
 ask naturally: “Use ms-app to build an approval app for our team.” Skills are
@@ -15,7 +18,7 @@ Microsoft-connected apps and preserves host differences. See [comparison](docs/G
 
 ## Download
 
-[Download Copilot Stack v0.1.1 (complete ZIP)](https://github.com/ahmedaldhraif/copilot-stack/releases/download/v0.1.1/copilot-stack-0.1.1.zip). Extract it and open the `copilot-stack` folder. It contains the source, 34 skills, and the ready-to-import Microsoft 365 packages under `dist/m365`. For a work account, start with the [Enterprise App Builder setup](docs/M365.md).
+[Download Copilot Stack v0.1.2 (complete ZIP)](https://github.com/ahmedaldhraif/copilot-stack/releases/download/v0.1.2/copilot-stack-0.1.2.zip). Extract it and open the `copilot-stack` folder. It contains the source, 34 skills, and the Microsoft 365 packages under `dist/m365`. For a work account with configurable agents, see the [Enterprise App Builder setup](docs/M365.md).
 
 ## Install
 
