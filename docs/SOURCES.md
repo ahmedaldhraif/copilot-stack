@@ -6,6 +6,9 @@ establish account eligibility, private APIs or observed tenant behavior.
 
 | Source | How it was used |
 | --- | --- |
+| [studio-apps](https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/apps-overview) | Conversational editing, preview and approved app dependencies |
+| [studio-apps-publish](https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/publish-share-app) | Publishing, sharing and underlying record access |
+| [cowork-apps](https://learn.microsoft.com/en-us/copilot/cowork/cowork-build-apps) | Draft edits, preview and publication in Cowork |
 | [github-skills](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills) | Native skill locations and supported GitHub Copilot surfaces |
 | [vscode-skills](https://code.visualstudio.com/docs/agent-customization/agent-skills) | Skill discovery, slash invocation and current harness boundaries |
 | [vscode-prompts](https://code.visualstudio.com/docs/agent-customization/prompt-files) | Local prompt-file deprecation and native skill preference |

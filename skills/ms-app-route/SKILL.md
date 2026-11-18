@@ -18,6 +18,7 @@ Compare only plausible paths:
 
 | Need | Candidate to investigate | Validate before choosing |
 | --- | --- | --- |
+| The maker is refining an app already open in Copilot Cowork or Apps in Copilot Studio | Continue in its conversational app editor and interactive preview | Confirm the actual surface, editable controls, connected data and publish state. Agent Builder configures an agent and has its own skill import path. |
 | Internal business app with governed connectors | Power Apps canvas/model-driven/code apps | Environment, licenses, connector/DLP support, sharing, delegation and offline limits |
 | Task performed mainly in conversation | Copilot Studio agent | Harness/features, tools, grounding, evaluation and consumption cost |
 | Team workflow inside Microsoft 365 | Teams/M365 app via Agents Toolkit | Host capabilities, manifest, sideloading and tenant policies |

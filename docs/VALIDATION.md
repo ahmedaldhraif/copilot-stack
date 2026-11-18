@@ -21,6 +21,7 @@ host execution are separate evidence.
 | Astra independent review | Initial 35-test suite passed independently; installer/export/recovery findings were corrected and covered by regressions |
 | Astra design walkthrough | Existing Fluent Teams app retains brand, records and permissions; relevant motion is adapted; missing browser/tenant proof stays visible |
 | Astra enterprise walkthrough | Eight-skill profile preserves authorized source scope, explicit delegation, actual tools and licensing uncertainty |
+| v0.1.1 hosted-editor walkthroughs | In two simulated maker requests, Astra gave a copy-ready form change and an isolated record check, left an unsupported bundling claim unverified, and included the resource inventory when explicitly asked for a full audit. No tenant app was edited in these trials. |
 
 The CI matrix exercises the helper CLI on Windows, Linux and macOS with Node 22
 and 24. Individual job results are available in [GitHub Actions](https://github.com/ahmedaldhraif/copilot-stack/actions/workflows/check.yml).

@@ -6,6 +6,11 @@ skill, relevant checklist coverage, Amicro CLI/catalog, Beautiful UI, complement
 transitions, charts and provider logos. AIforUI and Astryx add judgment and a
 conditional component foundation. [Full resource guidance](../skills/ms-native-ux/references/resources.md)
 
+A hosted builder can use these references with its existing controls. For example,
+on an approval screen, keep the selected request visible when approval fails and
+show a retry action. Describe the actual screen behavior and whether it was
+observed or proposed. Include the full resource inventory when requested.
+
 | Priority | Resource | Pattern/decision | Shared component or journey in a future app |
 | --- | --- | --- | --- |
 | P0 | Checklist Design | Missing-state and flow audit | Form, save, error, empty state, navigation, table and dialog coverage |

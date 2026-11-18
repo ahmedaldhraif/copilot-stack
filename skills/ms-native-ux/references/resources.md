@@ -2,6 +2,9 @@
 
 Reviewed 2026-11-18. Verify current instructions, versions and licenses when used.
 These are linked references; third-party component/skill libraries are not bundled.
+Read the checklists and study the interactions directly. Translate applicable
+behavior into existing host controls. The commands below are optional setup for
+a compatible project that needs the skill files or implementation code.
 Review source before execution. Install locally into the intended project when
 needed, preserving existing configuration and a lockfile. Do not install an entire
 library to imitate one effect. Record the exact version, source and decision.

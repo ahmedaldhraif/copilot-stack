@@ -4,6 +4,21 @@
   "scope": "Documentation and reference research; not tenant or runtime certification",
   "sources": [
     {
+      "id": "studio-apps",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/apps-overview",
+      "usedFor": "Conversational editing, interactive preview and approved application dependencies"
+    },
+    {
+      "id": "studio-apps-publish",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/apps-experience/publish-share-app",
+      "usedFor": "Publishing, sharing and underlying record access"
+    },
+    {
+      "id": "cowork-apps",
+      "url": "https://learn.microsoft.com/en-us/copilot/cowork/cowork-build-apps",
+      "usedFor": "Draft edits, preview and publication in Cowork"
+    },
+    {
       "id": "github-skills",
       "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills",
       "usedFor": "Native skill locations and supported GitHub Copilot surfaces"

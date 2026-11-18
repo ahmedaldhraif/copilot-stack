@@ -5,9 +5,11 @@ observed results afterward. Do not invent screens merely to populate it.
 
 | Priority | Source/checklist | Suitable pattern | Existing shared component | Affected screen/journey | Change | Verification |
 | --- | --- | --- | --- | --- | --- | --- |
-| P0/P1/P2 | Actual source and version/date | What helps the user's task | Real source path | Real route/host and AC ID | Concrete action | Tool, expected result and artifact |
+| P0/P1/P2 | Actual source and version/date | What helps the user's task | Source path or maker control name | Real route/host and AC ID | Concrete action | Tool, expected result and artifact |
 
-List every supplied resource as used or skipped with a reason. Note compatibility
+For a requested resource audit or full report, list every supplied resource as
+used or skipped with a reason. For a routine update, show the affected journey
+and its verification status. Note compatibility
 and license decisions for adopted code/assets. Record dependency/config changes.
 
 Verification receipt: app revision/content state, host/environment/account role,

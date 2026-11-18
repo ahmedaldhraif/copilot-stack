@@ -14,6 +14,7 @@ an observed live invocation are different evidence.
 | M365 Copilot for work + Work IQ | Enterprise App Builder recipe and supported Work IQ integration | Actual identity, workloads, entity permissions, policy, preview features and consumption arrangement |
 | WIQD coding-host authoring | ms-wiqd plus Microsoft's actual authoring plugin/CLI | Current schema/alpha command support, validation and authorized tenant lifecycle |
 | M365 Agent Builder | Upload ZIP skills per profile, configure agent manually | Tenant eligibility, current limits, knowledge/tools and Try it results |
+| Copilot Cowork or Apps in Copilot Studio app editor | Make changes through the supported conversation and test them in the app preview | Confirm the exact host, available instructions, data connection, permissions and published version |
 | Copilot Studio | Harness-specific Skills upload where available | Actual harness/UI, format, licensing and published-channel behavior |
 | Windows/Power Apps/Office | Specialist instructions in the chosen authoring host | Real authoring tools, control/API support, identity, data and host tests |
 

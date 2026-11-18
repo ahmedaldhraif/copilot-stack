@@ -9,8 +9,8 @@ license: "MIT"
 This entry point also supports Microsoft 365 Copilot for work/enterprise and
 Work IQ. In those hosts, use the skills actually attached to the agent/profile
 and the user's permitted work context. Use ms-work-iq and ms-enterprise when
-available. Without source/authoring/browser tools, complete the requirements,
-design and implementation handoff; mark code/host execution unverified.
+available. If the host offers no way to edit the app, complete the requested
+design or implementation handoff and identify the check that needs an editor.
 
 The user describes the intended result in ordinary language. Keep the specialist
 work behind that simple conversation. Start with the latest request, existing
@@ -30,6 +30,11 @@ verify current official capability, version and prerequisites for the chosen
 path. Without browsing, keep freshness unverified and continue independent work.
 If ms-refresh is not attached in a limited M365 profile, perform that same
 official-source check with the available web tools and record its date and gaps.
+
+In an existing hosted app editor, stay with the open app and its supported edit
+and preview controls. A conversational editor can make changes without a
+terminal. Use it when available. If you can only advise, give the maker one
+copy-ready change and a way to check it in their editor.
 
 Use ms-dev-setup when starting a development loop or when SDK/shell/debug settings
 are uncertain. Confirm the intended project and environment without overwriting
@@ -70,7 +75,25 @@ critical permission/data test cannot average out. Browser, host and tenant tests
 remain separate from local tests. “Zero learning curve” needs observed first-time
 user success to become a measured claim.
 
-Persist durable decisions in existing docs or docs/app/ and carry the same ACs
-forward. Complete all authorized work. Request only genuinely missing information
-or authorization, after making the result concrete and reviewable. Report what
-changed, actual checks/results, remaining blockers and the next meaningful action.
+## Tell the maker what they can try
+
+Lead with the change on a named screen, the behavior you observed and one
+useful next step. If you have only a screenshot or a proposal, say what it
+shows or what to change. Keep unrelated platforms and unused tools out of a
+routine update. Include the resource decisions when the user requests an audit.
+
+Ground a platform limit in the host, an observed restriction or current host
+documentation. Tie size figures to a named build report or artifact. A single
+output file does not establish a platform limit or explain a slow start. When
+speed is the issue, check time from opening to usable and then time for the
+specific action. Report which timings you could actually measure.
+
+For a record workflow, first check the preview's data connection and side
+effects. Try a fictional record in an isolated test target, save it, reopen it
+and check the expected state. For private fields, verify who can read the
+underlying record as well as what appears on screen. State the observed draft
+or published version and audience when known. Keep publication a separate authorized step;
+ask about a decision only when it blocks the user's goal, in words they can
+act on without looking up a decision number.
+
+Keep durable acceptance checks in the project's existing docs when writable.

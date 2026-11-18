@@ -11,11 +11,10 @@ features, content, data contracts and business logic. Simplify the path to the
 user's goal. For a brainstorming-only request, inspect and propose before editing;
 for an implementation request, complete the audit, fixes and verification.
 
-In M365 Copilot/Work IQ sessions, use available screenshots, sources and tools.
-If the session lacks code/authoring/browser access, produce the concrete design
-and implementation handoff with the missing execution checks; do not claim the
-app was edited or rendered. Continue implementation in the supported coding or
-maker host when available. Skill scripts do not supply network/tenant access.
+In a hosted app editor, apply changes through the supported conversation or
+maker controls and inspect the preview if available. If you can only see a
+screenshot, give the maker a copy-ready change and a check to try. Describe
+edits, screenshots and observed interactions according to the evidence you have.
 
 ## Establish the app and host
 
@@ -33,7 +32,12 @@ a compatible React 19+ app, not a second foundation on top of another system.
 ## Review resources in this order
 
 Read [resource roles and setup](references/resources.md). Load only the resources
-needed for this task after the ordered initial review; explain irrelevant skips.
+needed for this task after the ordered initial review. Checklists, interaction
+examples and design guidance can inform native controls without installing a
+package. In a hosted builder, use the controls and actions it exposes. Consider
+a dependency only when the chosen implementation needs its code and the host
+supports it. If a source is inaccessible, distinguish the bundled guidance from
+a current source review.
 
 1. Checklist Design skill FIRST. Read/load the current official skill using its
    documented instructions. Use the matching bundled checklists; keep visual
@@ -64,8 +68,10 @@ needed for this task after the ordered initial review; explain irrelevant skips.
 
 ## Show the plan, then complete it
 
-Give a brief prioritized checklist and resource → pattern → shared component →
-screen mapping. Use [the mapping template](references/implementation-map.md).
+For a design audit or full upgrade, show the brief prioritized checklist and
+resource → pattern → shared component → screen mapping before implementation.
+Use [the mapping template](references/implementation-map.md). For a routine
+change, identify the relevant pattern and control as part of the work.
 Implement shared foundations/states first, then verify every affected journey.
 Dependency installation alone is not implementation.
 
@@ -91,7 +97,12 @@ disabled, selected and interrupted states. Check performance on representative
 hardware and the existing budget; a fast desktop alone is insufficient evidence.
 
 Run build and relevant regression tests, then inspect real rendered journeys.
-Report changed components/screens, resources used/skipped with reasons, screenshots,
-commands/results and remaining gaps. A missing browser/host stays unverified.
+For the maker, name the screen, action and visible result, then say what you
+verified or what still needs a host check. For example, on a form with Save,
+show “Saving…” while the write is pending and retain the draft if it fails.
+Label this a proposal until edited, and report a test result only after observing
+it. Include the full resource mapping, used/skipped reasons and available
+screenshots and commands/results when the user asks for a resource audit or
+full report. Keep unrelated tools and setup out of routine replies.
 “Zero learning curve” is a design target; observe first-time task success before
 claiming it as a measured result. Hand current evidence to ms-qa and ms-ship.
